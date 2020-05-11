@@ -1,0 +1,177 @@
+@import url(inputs.css);
+@import url(buttons.css);
+@import url(queries.css);
+@import url(bootstrap.min.css);
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    font-family: 'Jost', sans-serif;
+    
+}
+#land{
+    /* background-color: #dd2c00; */
+    /* background-image: linear-gradient(purple,rgb(255, 0, 43)); */
+    /* background: linear-gradient(to right, red,purple); */
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    height: 663px;
+    
+}
+.cap{
+    font-size: 80px;
+    text-align: left;
+    color: #000000;
+    /* color: #2e25cc; */
+    /* color: #eb2f06; */
+    padding-top: 204px;
+    font-weight: 500;
+    line-height: 70px;
+    margin-left: 90px;
+    letter-spacing: -5px;
+}
+#qut{
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+}
+.cd{
+    
+    /* color: #26D2C6; */
+    background: linear-gradient(to right, green, #26D2C6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+    
+}
+/* Nav Bar */
+nav {
+    height: 140px;
+
+}
+a{
+    color: rgb(0, 0, 0)
+}
+ header p a{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 18px;
+}
+header p a:hover{
+    color: rgb(255, 255, 255);
+
+}
+a:hover{
+    /* background: linear-gradient(to right, rgb(226, 65, 6), orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color:green;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+    margin-top: 56px;
+    font-size: 17px;
+}
+ul .ull{
+    float: right;
+}
+
+.sticky {
+    z-index: 9999;
+    position: fixed;
+    top:0px;
+    left: 0;
+    width: 100%;
+    /* background-image: url(../images/antenna-cw-cj_nFa14-unsplash\ -\ Copy.jpg) ; */
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    /* box-shadow: 2px 2px 10px rgb(228, 226, 226); */
+    
+}
+.stick{
+    z-index: 9999;
+    position: fixed;
+    top:570px;
+    left: 0;
+    width: 100%;
+    /* background-image: url(../images/antenna-cw-cj_nFa14-unsplash\ -\ Copy.jpg) ; */
+    /* background-color: rgb(255, 255, 255); */
+    background-position: center;
+    background-size: cover;
+    /* box-shadow: 2px 2px 15px rgb(228, 226, 226); */
+    
+}
+
+/* Img Effect */
+.imt:hover {
+    padding-right: 3px;
+    width: 105%;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+
+}
+
+.imt {
+    border-style: none;
+    width: 100%;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    
+}
+
+
+
+
+
+/* Overlay */
+.overlay::before {
+    position: absolute;
+    content: "";
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .85;
+}
+
+.overlay {
+    color: r;
+    position: relative;
+    z-index: 0;
+}
+
+
+#stk{
+    background-color: #5b1ed6;
+    float:right;
+    margin-right: 70px;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    transition: ease-out .4s;
+}
+#stk:hover{
+    background-image: none;
+    background-color: rgb(0, 0, 0);
+}

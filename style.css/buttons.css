@@ -1,0 +1,109 @@
+/* apply */
+#apply {
+
+    
+    width: 150px;
+    
+    border-style: none;
+    border-radius: 50px;
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin-top: -4px;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    background: linear-gradient(to right, #5b1ed6, #ad38e2);
+    transition: ease-in-out .5s;
+}
+
+
+#apply:focus {
+    outline: none;
+}
+
+#apply:hover {
+      color: #000000;
+      background: none;
+      border: 2px solid rgb(0, 0, 0);
+}
+/* get Started */
+#gt {
+
+    margin-top: 5px;
+    width: 180px;
+    margin-left: 5px;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    background: linear-gradient(to right, #5b1ed6, #ad38e2);
+    transition: all .4s ease-in-out;
+}
+
+
+#gt:focus {
+    outline: none;
+}
+
+#gt:hover {
+    color: #000000;
+    background: none;
+    border: 2px solid rgb(0, 0, 0) ; 
+}
+/* view Courses */
+#gvt {
+
+    margin-top: 1px;
+    width: 180px;
+    margin-left: 90px;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    border:2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    transition: ease-in-out .3s;
+}
+
+
+#gvt:focus {
+    outline: none;
+}
+
+#gvt:hover {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #5b1ed6, #ad38e2);
+    border: none;
+    
+}
+
+
+/* Subscribe */
+
+#sub {
+
+    margin-top: 14px;
+    
+    width: 170px;
+    margin-left: -7px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    background: linear-gradient(to right, green, #26D2C6);
+    transition: ease-in-out .5s;
+    color: rgb(255, 255, 255);
+}
+
+#sub:focus {
+    outline: none;
+}
+
+#sub:hover {
+    color: rgb(255, 255, 255);
+    
+    background-color: rgb(0, 12, 0);
+}
+
+
