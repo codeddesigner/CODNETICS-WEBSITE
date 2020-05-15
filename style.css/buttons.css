@@ -1,9 +1,9 @@
 /* apply */
-#apply {
+#apply { 
 
     
     width: 150px;
-    
+    padding-bottom: 8px;
     border-style: none;
     border-radius: 50px;
     font-size: 20px;
@@ -14,7 +14,9 @@
     background-color: #26D2C6;
     transition: ease-in-out .5s;
 }
-
+ button{
+     padding-bottom: 8px;
+ }
 
 #apply:focus {
     outline: none;

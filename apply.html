@@ -11,13 +11,14 @@
     <div id="appl" class="container">
         <div class="row">
             <div id="appi" class="col-sm-6">
-                <a href="index.html"><ion-icon style="font-size: 30px; margin-top: 30px; margin-left: 20px; color: rgb(255, 255, 255);" name="arrow-back-sharp"></ion-icon></a>
-                <h1 style="font-size: 70px; color: white; letter-spacing: -3px; margin-left: 40px; padding-top: 30px;">Learning without Boundaries</h1>
+                <a  style="color: rgb(255, 255, 255);" href="index.html"><ion-icon style="font-size: 30px; margin-top: 30px; vertical-align: middle; margin-left: 20px; color: rgb(255, 255, 255);" name="arrow-back-sharp"></ion-icon></a>
+                <h1 id="lrnb">Learning without Boundaries</h1>
                 <p style="color: white; margin-left: 40px; font-size: 20px;">Get started with the application form and stand a chance to Get a lifetime of Opportunities....</p>
             </div>
-            <div  class="col-sm-6">
-                <p style="color:rgb(0, 0, 0); margin-left: 40px; margin-bottom: 45px; font-size: 17px;padding-top: 30px;">Already have an Account? <a href="" style="color: blue;" >Sign in<ion-icon style="vertical-align: middle; font-size: 12px;" name="arrow-forward-sharp"></ion-icon></a></p>
-                <h1 style="font-size: 30px; color: rgb(0, 0, 0); letter-spacing: -1px; margin-left: 40px;">Sign Up to COD-NETICS</h1>
+            <div id="signuppa"  class="col-sm-6">
+                <p id="jsnn" style="color:rgb(0, 0, 0);  margin-left: 40px; margin-bottom: 45px; font-size: 17px;padding-top: 30px;">Already have an Account?  <span style="color: blue; cursor: pointer;" id="qq">Sign in<ion-icon style="vertical-align: middle; color: blue; font-size: 12px;" name="arrow-forward-sharp"></ion-icon></span></p>
+
+                <h1 id="dsw" style="font-size: 30px; color: rgb(0, 0, 0); font-weight: bold; letter-spacing: -1px; margin-left: 40px;">Sign Up to COD-NETICS</h1>
                 <p style="color: rgb(0, 0, 0); margin-left: 40px; font-size: 20px;">Get started with the application form and stand a chance to Get a lifetime of opportunities</p>
                 <button id="signg"> <ion-icon style="vertical-align: middle; font-size: 20px;" name="logo-google"></ion-icon> Sign Up with Google </button>
                 <form >
@@ -25,15 +26,34 @@
                     <input id="username" required placeholder="username" type="text" name="" id="">
                     <input id="email" required type="email" placeholder="Email Address" name="" id="">
                     <input id="password" required placeholder="Password" type="password" maxlength="8" name="" id="">
-                    <p style="margin-top: 10px; margin-left: 40px;"> <input required type="checkbox" name="" id=""> Creating an Account means that you agree <br> to the <a href="" style="color: blue;" >Terms and Conditions</a></p>
+                    <p id="jsdn" style="margin-top: 10px; margin-left: 40px;"> <input required type="checkbox" name="" id=""> Creating an Account means that you agree <br> to the <a href="" style="color: blue;" >Terms and Conditions</a></p>
                     <button id="createa">Create Account</button>
                 </form>
                 
 
             </div>
+            
+            <div id="signinpa" class="col-sm-6">
+                <p id="jsnn" style="color:rgb(0, 0, 0);  margin-left: 40px; margin-bottom: 45px; font-size: 17px;padding-top: 30px;">No i am new here!!!  <span style="color: blue; cursor: pointer;" id="qa">Sign Up<ion-icon style="vertical-align: middle; color: blue; font-size: 12px;" name="arrow-forward-sharp"></ion-icon></span></p>
+
+                <h1 id="dsw" style="font-size: 30px; color: rgb(0, 0, 0); letter-spacing: -1px; margin-left: 40px;">Sign in to COD-NETICS</h1>
+                <p style="color: rgb(0, 0, 0); margin-left: 40px; font-size: 20px;">Get started with the application form and stand a chance to Get a lifetime of opportunities</p>
+                <button id="signg"> <ion-icon style="vertical-align: middle; font-size: 20px;" name="logo-google"></ion-icon> Sign in with Google </button>
+                <form >
+                    <input style="margin-left: 40px;" id="username" required placeholder="username" type="text" name="" id="">
+                    <input id="email" required type="email" placeholder="Email Address" name="" id="">
+                    <input id="password" required placeholder="Password" type="password" maxlength="8" name="" id="">
+                    <button style="margin-top: 20px;" id="createa">Log in</button>
+                </form>
+                
+
+            </div>
+            
         </div>
     </div>
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+<script src="script/jquery.min.js"></script>
+<script src="script/script.js"></script>
 </body>
 </html>
  
