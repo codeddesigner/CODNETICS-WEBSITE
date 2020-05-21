@@ -1,7 +1,7 @@
 /* apply */
-#apply { 
+#apply {
 
-    
+
     width: 150px;
     padding-bottom: 8px;
     border-style: none;
@@ -14,32 +14,33 @@
     background-color: #26D2C6;
     transition: ease-in-out .5s;
 }
- button{
-     padding-bottom: 8px;
- }
+
+button {
+    padding-bottom: 8px;
+}
 
 #apply:focus {
     outline: none;
 }
 
 #apply:hover {
-      color: #000000;
-      background: none;
-      border: 2px solid rgb(0, 0, 0);
+    color: #000000;
+    background: none;
+    border: 2px solid rgb(0, 0, 0);
 }
+
 /* view courses */
 #gt {
-
     margin-top: 5px;
     width: 180px;
-    margin-left: 90px;
+    /* margin-left: 90px; */
     border-radius: 50px;
     border-style: none;
     font-size: 20px;
     color: rgb(255, 255, 255);
     height: 50px;
     background-color: #26D2C6;
-    
+
     transition: all .4s ease-in-out;
 }
 
@@ -51,20 +52,21 @@
 #gt:hover {
     color: #000000;
     background: none;
-    border: 2px solid rgb(0, 0, 0) ; 
+    border: 2px solid rgb(0, 0, 0);
 }
+
 /* get started */
 #gvt {
 
     margin-top: 1px;
     width: 180px;
-    
+
     border-style: none;
     border-radius: 50px;
     font-size: 20px;
     color: rgb(0, 0, 0);
     height: 50px;
-    border:2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     background-color: transparent;
     transition: ease-in-out .3s;
 }
@@ -78,20 +80,21 @@
     color: rgb(255, 255, 255);
     background-color: #26D2C6;
     border: none;
-    
+
 }
+
 /* get started 2 */
 #gvt2 {
 
     margin-top: 1px;
     width: 180px;
-    
+
     border-style: none;
     border-radius: 50px;
     font-size: 20px;
     color: rgb(0, 0, 0);
     height: 50px;
-    border:2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     background-color: transparent;
     transition: ease-in-out .3s;
 }
@@ -105,11 +108,11 @@
     color: rgb(255, 255, 255);
     background-color: #26D2C6;
     border: none;
-    
+
 }
 
 /* Apply */
-#signg{
+#signg {
     background-color: darkblue;
     padding: 5px;
     width: 300px;
@@ -125,7 +128,7 @@
     outline: none;
 }
 
-#createa{
+#createa {
     width: 200px;
     margin-left: 40px;
     height: 45px;
@@ -142,6 +145,7 @@
     background: none;
     border: 2px solid rgb(0, 0, 0);
 }
+
 #createa:focus {
     outline: none;
 }
