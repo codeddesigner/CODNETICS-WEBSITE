@@ -33,14 +33,14 @@ button {
 #gt {
     margin-top: 5px;
     width: 180px;
-    /* margin-left: 90px; */
+    margin-left: 70px;
     border-radius: 50px;
     border-style: none;
     font-size: 20px;
     color: rgb(255, 255, 255);
     height: 50px;
     background-color: #26D2C6;
-
+    padding-top: 8px;
     transition: all .4s ease-in-out;
 }
 
@@ -60,7 +60,7 @@ button {
 
     margin-top: 1px;
     width: 180px;
-
+    padding-top: 8px;
     border-style: none;
     border-radius: 50px;
     font-size: 20px;
@@ -133,6 +133,7 @@ button {
     margin-left: 40px;
     height: 45px;
     font-size: 17px;
+    padding-top: 8px;
     color: rgb(255, 255, 255);
     background-color: #26D2C6;
     border-style: none;

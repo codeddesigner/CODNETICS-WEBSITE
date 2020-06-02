@@ -13,21 +13,21 @@
 //         document.getElementById("cnt").style.display = "none"
 //     })
 // });
-// // Sign up
-// $(document).ready(function () {
-//     $("#qq").click(function(){
-//        document.getElementById("signuppa").style.display = "none"
-//         document.getElementById("signinpa").style.display = "block"
+// Sign up
+$(document).ready(function () {
+    $("#qq").click(function(){
+       document.getElementById("signuppa").style.display = "none"
+        document.getElementById("signinpa").style.display = "block"
 
 
-//     })
-// });
+    })
+});
 
-// $(document).ready(function () {
-//     $("#qa").click(function(){
-//         document.getElementById("signinpa").style.display = "none"
-//         document.getElementById("signuppa").style.display = "block"
+$(document).ready(function () {
+    $("#qa").click(function(){
+        document.getElementById("signinpa").style.display = "none"
+        document.getElementById("signuppa").style.display = "block"
 
 
-//     })
-// });
+    })
+});

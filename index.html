@@ -9,18 +9,20 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="assets/img/favicons/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <title>Welcome to Codnetic | Learn and grow with Codneticsa </title>
 
     <link rel="canonical" href="index.html">
 
     <!-- Custom styles for this template -->
-    <link href="/assets/styles/styles.css" rel="stylesheet">
+    <link href="assets/styles/styles.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="container-fulid p-3 p-md-5 m-md-3">
+    <div class="container-fluid">
+        <!-- Nav bar items -->
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
@@ -49,7 +51,7 @@
                 </div>
             </div>
         </nav>
-
+        <!-- Banner | Landing Page -->
         <section id="banner" class="row position-relative overflow-hidden text-center bg-light">
             <div class="row">
                 <div class="text-left col-lg-5 col-md-5 col-sm-5">
@@ -58,10 +60,10 @@
                         <p class="cj">Codnetics Is An Online Technology
                             Training School, Where Students are taught to create.
                         </p>
-                        <button id="gt">View Courses
+                        <a href="#vwc"><button id="gt">View Courses
                             <ion-icon style="font-size: 20px; vertical-align:middle ;" name="arrow-forward-sharp">
                             </ion-icon>
-                        </button>
+                        </button></a>
                         <a href="apply.html"><button id="gvt">Get Started<ion-icon
                                     style="font-size: 20px; vertical-align:middle ;" name="arrow-forward-sharp">
                                 </ion-icon>
@@ -69,38 +71,131 @@
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-7">
-                    <img class="img-responsive" src="assets/images/hero@3x.png" style="width: 100%;" alt="">
+                    <img class="img-responsive" src="assets/images/hero@3x.png" style="width: 95%; margin-top: 40px;" alt="">
                 </div>
             </div>
 
         </section>
 
+        <!-- Video part -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="acquiresk">Acquire a Skill in <br> Digital Marketing</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis ipsa saepe corrupti qui corporis, sint molestiae. Commodi impedit ipsa asperiores quo, porro soluta sed. Veritatis exercitationem labore cumque error unde!</p>
+                    <button style="margin-left: -10px;" id="gt">Get Started<ion-icon style="font-size: 20px; vertical-align:middle ;" name="arrow-forward-sharp">
+                    </ion-icon></button>
+                </div>
+                <div class="col-sm-6">
+                    <iframe width="550" height="395" src="https://www.youtube.com/embed/Z_KspIX1oXU" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+        
+                </div>
+            </div>
+        </div>
+        
+        <!-- Courses part -->
+        <div id="vwc" style="margin-bottom: 60px ; margin-top: 130px;" class="container">
+            <p style="font-size: 45px; margin-bottom: 40px; color: rgb(0, 0, 0); letter-spacing: -2px; font-weight: 600; text-align: center;">Explore our Courses</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div style="border: 1px solid lightgray;border-radius: 20px; box-shadow: 2px 5px 14px lightgrey;">
+                    <img style="margin-bottom: 30px; border-top-left-radius: 20px; border-top-right-radius: 20px;" class="img-responsive fit-image" src="assets/images/unnamed.png" alt="">
+                    <p style="text-align: center; font-size: 25px; font-weight: bold;">IOS DEVELOPMENT</p>
+                    <p style="text-align: center; padding-left: 10px; padding-right: 10px; line-height: 30px;">Create Powerful iphone and Ipads app with Swift, Objectives-C, and
+                        Cocoa Touch... </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div style="border: 1px solid lightgray;border-radius: 20px;box-shadow: 2px 5px 14px lightgrey;">
+                    <img style="margin-bottom: 30px;border-top-left-radius: 20px; border-top-right-radius: 20px;" class="img-responsive fit-image" src="assets/images/best-full-stack-web-developer-courses-certification-online.jpg" alt="">
+                    <p style="text-align: center; font-size: 25px; font-weight: bold;">FULLSTACK DEV.</p>
+                    <p style="text-align: center; padding-left: 10px; padding-right: 10px; line-height: 30px;">Create Powerful iphone and Ipads app with Swift, Objectives-C, and
+                        Cocoa Touch... </p></div>
+                </div>
+                <div class="col-sm-4">
+                    <div style="border: 1px solid lightgray;border-radius: 20px; box-shadow: 2px 5px 14px lightgrey;">
+                    <img style="margin-bottom: 30px; border-top-left-radius: 20px; border-top-right-radius: 20px;" class="img-responsive fit-image" src="assets/images/education_shutterstock_venimo.jpg" alt="">
+                    <p style="text-align: center; font-size: 25px; font-weight: bold;">DATA SCIENCE</p>
+                    <p style="text-align: center; padding-left: 10px; padding-right: 10px; line-height: 30px;">Create Powerful iphone and Ipads app with Swift, Objectives-C, and
+                        Cocoa Touch... </p></div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Testimonials Part -->
+        <div style="margin-bottom: 60px ; margin-top: 130px;" class="container">
+            <p style="font-size: 45px; color: rgb(0, 0, 0); margin-bottom: 40px; letter-spacing: -2px; font-weight: 700; text-align: center;">Testimonials</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div style="box-shadow: 2px 5px 14px lightgrey; border-radius: 20px; padding-top: 30px; padding-bottom: 30px;">
+                    <center><img style="border-radius: 50px; margin-bottom: 30px;" width="100" src="myAvatar.png" alt="">
+                    </center>
+                    <p style="text-align: center; line-height: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eaque tempore placeat temporibus id non commodi, amet nulla, quo tempora quaerat similique hic ipsa
+                        laborum ex cumque reiciendis quasi cupiditate est?</p>
+                    <p style="text-align: center; font-weight: bold;">Chidera Nwanyemike</p>
+                    <p style="margin-top: -20px; text-align: center;">Former Student, CODNETICS</p></div>
+                </div>
+                <div class="col-sm-4">
+                    <div style="box-shadow: 2px 5px 14px lightgrey; border-radius: 20px; padding-top: 30px; padding-bottom: 30px;">
+                    <center><img style="border-radius: 50px; margin-bottom: 30px;" width="100" src="myAvatar.png" alt="">
+                    </center>
+                    <p style="text-align: center; line-height: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eaque tempore placeat temporibus id non commodi, amet nulla, quo tempora quaerat similique hic ipsa
+                        laborum ex cumque reiciendis quasi cupiditate est?</p>
+                    <p style="text-align: center; font-weight: bold;">Chidera Nwanyemike</p>
+                    <p style="margin-top: -20px; text-align: center;">Former Student, CODNETICS</p></div>
+                </div>
+                <div class="col-sm-4">
+                    <div style="box-shadow: 2px 5px 14px lightgrey; border-radius: 20px; padding-top: 30px; padding-bottom: 30px;">
+                    <center><img style="border-radius: 50px; margin-bottom: 30px;" width="100" src="myAvatar.png" alt="">
+                    </center>
+                    <p style="text-align: center; line-height: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eaque tempore placeat temporibus id non commodi, amet nulla, quo tempora quaerat similique hic ipsa
+                        laborum ex cumque reiciendis quasi cupiditate est?</p>
+                    <p style="text-align: center; font-weight: bold;">Chidera Nwanyemike</p>
+                    <p style="margin-top: -20px; text-align: center;">Former Student, CODNETICS</p></div>
+                </div>
+            </div>
+        </div>
+        
+        <section class="aquatw">
         <section class="row aqua-bg rounded">
-            <div class="col-md-6 ">
-                <div class=" mx-auto">
-                    <div class="my-3 py-3">
-                        <h2>Get Equipped!</h2>
-                        <p class="lead">Position for opportunity and get more value for your time.</p>
-                        <a href="apply.html"><button id="gvt">Get Started<ion-icon
-                                    style="font-size: 20px; vertical-align:middle ;" name="arrow-forward-sharp">
-                                </ion-icon>
-                            </button></a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <div class=" mx-auto">
+                            <div class="my-3 py-3">
+                                <h2>Get Equipped!</h2>
+                                <p class="lead">Position for opportunity and get more value for your time.</p>
+                                <a href="apply.html"><button id="gvt">Get Started<ion-icon style="font-size: 20px; vertical-align:middle ;"
+                                            name="arrow-forward-sharp">
+                                        </ion-icon>
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="box-shadow mx-auto">
+                            <img style=" border-radius: 21px;" class="img-responsive fit-image"
+                                src="https://pbs.twimg.com/media/Dv5z0jPWoAIwZ3y?format=jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 text-center">
-                <div class="box-shadow mx-auto">
-                    <img style=" border-radius: 21px;" class="img-responsive fit-image"
-                        src="https://pbs.twimg.com/media/Dv5z0jPWoAIwZ3y?format=jpg" alt="">
-                </div>
-            </div>
         </section>
+        </section>
+        
 
+        
     </div>
 
+    
 
-
-    <footer class="py-5 bg-dark">
+    <footer class="py-5 bg-dark clr">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md">
@@ -170,6 +265,7 @@
             text: 'Thumbnail'
         });
     </script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </body>
 
 </html>
