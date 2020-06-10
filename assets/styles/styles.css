@@ -329,15 +329,13 @@ ul .ull {
 
 /* Queries */
 @media only screen and (max-width:767px) {
-    .mbicon {
-        display: inline-block;
-        margin-top: 20px;
-        margin-right: 20px;
+    
+    #gvt{
+        display: block;
+        margin-top: 10px;
+        margin-left: 20px;
     }
-
-    #lie {
-        margin-top: 30px;
-    }
+   
     li{
         margin-bottom: 10px;
         margin-right: 40px;
@@ -346,26 +344,34 @@ ul .ull {
 
     ul {
         display: none;
+        
     }
-
+    iframe{
+        height: 150%;
+        margin-top: 40px;
+        padding-bottom: 170px;
+    }
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .chfr{
+        padding: 0;
+    }
+    .col-sm-4{
+        margin-top: 40px;
+    }
     #lapp {
         display: none;
     }
     .cap {
         margin-left: 20px;
     }
-
-    .cj {
+    .cj{
         margin-left: 20px;
     }
-
     #gt {
         margin-left: 20px;
-    }
-
-    #items {
-        padding-left: 40px;
-        padding-right: 40px;
     }
 
     #a {
@@ -379,6 +385,8 @@ ul .ull {
 
     #username {
         width: 194px;
+      
+        margin-left: 5px;
     }
 
     #email {
@@ -388,19 +396,16 @@ ul .ull {
     #password {
         width: 400px;
     }
-
-    /* button */
-    #createa {
-        margin-bottom: 50px;
-    }
-
+   
     /* Aplly lfr */
     #appi {
         height: 380px;
+        width: 100%;
     }
 
     #appl {
         height: 1000px;
+        width: 100%;
         margin-bottom: 30px;
     }
 
@@ -415,11 +420,6 @@ ul .ull {
 
 }
 
-@media only screen and (max-width:0) {
-    #cnt {
-        display: none;
-    }
-}
 
 
 /*
@@ -448,30 +448,17 @@ ul .ull {
     flex: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: -768px) {
     .flex-md-equal>* {
         -ms-flex: 1;
         -webkit-box-flex: 1;
         flex: 1;
     }
+    
 }
 
 @media only screen and (max-width: 400px) {
-    .cap {
-        font-size: 50px;
-        text-align: left;
-        color: #000000;
-        /* color: #2e25cc; */
-        /* color: #eb2f06; */
-        font-weight: 900;
-        letter-spacing: -3px;
-        line-height: 2.7rem;
-    }
-
-    .cj {
-        font-size: 18px;
-        line-height: 1.5rem;
-    }
+    
 }
 
 .overflow-hidden {
