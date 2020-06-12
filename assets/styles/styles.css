@@ -380,21 +380,21 @@ ul .ull {
 
     /* Inputs */
     #firstname {
-        width: 194px;
+        width: 180px;
     }
 
     #username {
-        width: 194px;
+        width: 180px;
       
         margin-left: 5px;
     }
 
     #email {
-        width: 400px;
+        width: 360px;
     }
 
     #password {
-        width: 400px;
+        width: 360px;
     }
    
     /* Aplly lfr */
